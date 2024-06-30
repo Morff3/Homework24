@@ -7,7 +7,7 @@ class MyException2(Exception):
 
 
 def temper(a):
-    if a < 0:
+    if a < -70:
         raise MyException1('Температура не может быть ниже -70')
     elif a > 70:
         raise MyException2('Температура не может быть больше 70')
